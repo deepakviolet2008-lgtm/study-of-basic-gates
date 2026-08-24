@@ -64,16 +64,37 @@ Y= A⊕B
 
 **PROGRAM**
 
+module DS_exp1 ( input a, input b, output and_out, output or_out, output not_out, output xor_out, output xnor_out, output nand_out, output nor_out );
+```
+// Logic gate implementations
+and  y1(and_out, a, b);
+or   y2(or_out, a, b);
+not  y3(not_out, a);
+xor  y4(xor_out, a, b);
+xnor y5(xnor_out, a, b);
+nand y6(nand_out, a, b);
+nor  y7(nor_out, a, b);
+
+```
+endmodule
+
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by: Deepak B 
+ 
+ RegisterNumber: 212225230043
  
 **Logic symbol & Truthtable**
 
+<img width="640" height="360" alt="deexp1" src="https://github.com/user-attachments/assets/9659e4d6-2faa-4158-a07c-f6ad29f76f87" />
+
 **RTL realization Output:** 
+<img width="1920" height="1080" alt="deexp2" src="https://github.com/user-attachments/assets/9ca2b8e5-787f-47ed-bec0-bdeb441920e9" />
 
 **RTL**
+<img width="1920" height="1080" alt="deexp3" src="https://github.com/user-attachments/assets/9692901a-0ed5-4da2-b59e-fe5839d5d549" />
 
 **Result:**
 
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 
